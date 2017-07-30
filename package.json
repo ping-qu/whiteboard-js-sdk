@@ -1,0 +1,54 @@
+{
+  "name": "pingqu-whiteboard",
+  "version": "0.0.1",
+  "description": "whiteboard-js-sdk",
+  "main": "./lib/api.js",
+  "scripts": {
+    "lint": "eslint --ext .js lib --ignore-pattern dist",
+    "dist": "npm run lint&&webpack",
+    "precommit": "npm run dist",
+    "prepublish": "npm run dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ping-qu/whiteboard-js-sdk.git"
+  },
+  "keywords": [
+    "restfulapi",
+    "api"
+  ],
+  "author": "hua,huadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ping-qu/whiteboard-js-sdk/issues"
+  },
+  "jshintConfig": {
+    "esversion": 6,
+    "undef": true,
+    "unused": true,
+    "node": true,
+    "predef": [
+      "module",
+      "require",
+      "console",
+      "process"
+    ]
+  },
+  "homepage": "https://github.com/ping-qu/whiteboard-js-sdk#readme",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-eslint": "^7.0.0",
+    "babel-preset-es2015": "^6.22.0",
+    "eslint": "^3.10.2",
+    "eslint-plugin-html": "^1.3.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "webpack": "^2.2.0",
+    "webpack-node-externals": "^1.5.4"
+  },
+  "dependencies": {
+    "ddv-restful-ws-api": "~0.1.1"
+  }
+}
