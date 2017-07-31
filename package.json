@@ -2,7 +2,7 @@
   "name": "pingqu-whiteboard",
   "version": "0.0.1",
   "description": "whiteboard-js-sdk",
-  "main": "./lib/api.js",
+  "main": "./lib/index.js",
   "scripts": {
     "lint": "eslint --ext .js lib --ignore-pattern dist",
     "dist": "npm run lint&&webpack",
@@ -14,8 +14,9 @@
     "url": "git+ssh://git@github.com/ping-qu/whiteboard-js-sdk.git"
   },
   "keywords": [
-    "restfulapi",
-    "api"
+    "pingquSdk",
+    "pingquCloudSdk",
+    "sdk"
   ],
   "author": "hua,huadi",
   "license": "ISC",
