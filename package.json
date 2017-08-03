@@ -50,6 +50,8 @@
     "webpack-node-externals": "^1.5.4"
   },
   "dependencies": {
-    "ddv-restful-ws-api": "~0.1.1"
+    "ddv-restful-api": "^0.1.5",
+    "ddv-restful-ws-api": "~0.1.1",
+    "ddv-upload-api": "0.0.8"
   }
 }
