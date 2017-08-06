@@ -1,6 +1,6 @@
 {
   "name": "pingqu-whiteboard",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "whiteboard-js-sdk",
   "main": "./lib/index.js",
   "scripts": {
